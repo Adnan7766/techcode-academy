@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>techcode sign up</title>
+    <style>
+        .container{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .right-section h1{
+            padding:20px ;
+            padding-top: 0px !important;
+            font-size: 50px;
+        }
+        .right-section p{
+            width: 60%;
+            font-size: 20px;
+            justify-content: center;
+            text-align: center;
+            padding: 20px 0px 70px 50px;
+        }
+        .right-section{
+            float: left;
+          width: 50%;
+          justify-content: center;
+          text-align: center;
+            margin: auto;
+            background-color: rgba(235, 235, 235, 0.622);
+            padding-top: 0;
+             
+        }
+        .right-section img{
+padding-top: 100px;
+        }
+        .left-section{
+            float: right;
+            justify-content: center ;
+           width: 50%;
+            
+            margin: auto;
+            padding: 10px  0px 0px 0px ;
+        }
+        .login-section1{
+            display: flex;
+            flex-direction: column;
+             font-size: 20px;
+             font-weight: bold;
+             padding-top: 10px;
+        }
+        input{
+            margin-left: 70px;
+            width: 40%;
+            padding: 10px;
+            border: 1px solid rgb(204, 204, 204);
+            background-color: rgba(242, 242, 242, 0.406);
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .logo{
+            width: 20%;
+            padding: 10px 10px 10px  40px;
+            font-size: 32px;
+            justify-content: center;
+            text-align: center;
+            border: 5px solid rgb(37, 35, 35);
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        button{
+            margin-left: 90px;
+            padding: 10px;
+            margin-top: 10px;
+            width: 25%;
+           background-color: rgb(59, 59, 249);
+           border: none;
+           cursor: pointer;
+           border-radius: 5px;
+            font-size: 17px;
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+        }
+        button:hover{
+            background-color: rgb(50, 50, 186);
+        }
+        input:hover{
+            border: 2px solid #02e0ca;
+        }
+        label{
+            padding-left: 70px;
+            padding-top: 15px;
+            padding-bottom: 3px;
+        }
+        .left-section p{
+            padding-left: 70px;
+            font-size: 22px;
+            width: 70%;
+            font-family: serif;
+            color: rgb(100, 100, 100);
+        }
+        .login-section2{
+            justify-content: center;
+            text-align: center;
+        }
+        .login-section2 a{
+            padding-top: 30px;
+             color: rgb(80, 80, 250);
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .login-section2 a:hover{
+            text-decoration: underline;
+            color: rgb(50, 50, 252);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="right-section">
+<img  style="height: 50vh;" src="create-account.adab69b4.png" alt="login images">
+<br>
+<h1>Welcome to techcode</h1>
+<p>This is the begining of your journey. You are about to learn what is necesary to become a suscessfull software developer</p>
+        </div>
+        <div class="left-section">
+            <div class="logo">techcode <br> academy</div>
+            <p>Please enter the verification code send via email and personal data.</p>
+            <div class="login-section1">
+                <label for="name">Full Name:</label>
+            <input type="name" id="name" name="name" placeholder="Enter your full name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Abc@email.com" required>
+            <label for="password">Password:</label>
+            <input type="password" id=" password" name="password" placeholder="******" required>
+            <label for="code">Activation code:</label>
+            <input type="code" id=" code" name="code" placeholder="SDTKHLM" required></div>
+            <br>
+            <button><a href="#">sign up</a></button>
+            <br><br><br>
+            <div class="login-section2">
+                
+               <a href="#">Login instead </a>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>
